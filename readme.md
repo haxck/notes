@@ -1,4 +1,7 @@
+---
+sidebar: false
+---
+
 # Introduction
 
-D&A notes.
-
+This is my notebook!

@@ -1,15 +1,30 @@
 module.exports = {
 	base: "/notes/",
-	title: "haxck's notes",
+	title: "haxck's notebook",
 	description: "haxck's learning notes",
 	themeConfig: {
-		sidebar: [
+		nav: [{
+				text: 'f2e',
+				link: '/f2e/'
+			},
 			{
-				title: "D&A",
-				collapsable: false,
-				children: [
-					"/","/stack","queue"
-				]
-			}]	
+				text: 'd&c',
+				link: '/dc/'
+			}
+		],
+		sidebar:{
+			'/f2e/':[
+				'',
+				'test'
+			],
+			'/dc/': [
+				'',
+				'queue',
+				'stack'
+			],
+			'/': [
+				''
+			]
+		}
 	}
 }
